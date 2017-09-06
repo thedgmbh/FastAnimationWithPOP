@@ -68,7 +68,7 @@ A very simplifty animation framework. Powerby Facebook POP. Use **fast animation
   #
 
   s.source_files  = "FastAnimationWithPop", "FastAnimationWithPop/**/*.{h,m}"
-  s.prefix_header_contents = '#import <POP.h>'
+  s.prefix_header_contents = "#import 'POP.h'"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
